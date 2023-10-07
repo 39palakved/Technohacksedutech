@@ -1,0 +1,228 @@
+
+
+/*Registration css*/
+#contact{
+   
+    height: 500px;
+    margin-top: 100px; 
+
+}
+#contact::before{
+    content: "";
+    background-color:white;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left:330px;
+    
+    height: 520px;
+    width: 800px;
+    
+    z-index: -1;
+    opacity: 2;
+     border-radius: 25px;
+     justify-content: center;
+}
+
+#contact-box {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    font-size: 12px;
+    border-radius: 30px;
+     
+   
+}
+#contact-box input{
+    
+    padding:0.5rem; 
+    text-align: center; 
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 600px;
+}
+#contact-box textarea{
+    width: 400px;
+    padding:0.5rem;
+    text-align: center;
+    border:3px solid blue;
+    border-radius: 10px;
+    margin-left: 600px;
+
+}
+.form-group{
+    
+    padding-bottom:20px
+}
+.h-primary{
+    margin-top: 70px;
+    font-size: 30px;
+   
+    font-family: 'Mandali', sans-serif;
+    
+
+}
+
+
+
+
+
+.Btn {
+  
+  background-color:plum;
+  Border-Radius: 20px;
+  Font-Size: 22px;
+  padding: 30px 30px 30px 30px;
+  margin-top: 0px;
+  Color: white;
+  
+  
+}
+
+.Btn:hover {
+  Background: #165f56;
+  Transition: 0.3s Linear;
+}
+
+
+
+@Media (Max-Width: 768px) {
+  .Flex {
+    Flex-Direction: Column;
+    Text-Align: Center;
+  }
+
+  .Mobile-Btn {
+    Display: Block;
+    Font-Size: 35px;
+    Cursor: Pointer;
+   
+    Right: 30px;
+    Top: 40px;
+  }
+
+  .Menu.Active .Nav-Item {
+    Display: Block;
+    Margin: 30px 0;
+  }
+
+  .Nav,
+  .Menu .Btn {
+    Display: None;
+  }
+
+  .Menu.Active .Nav,
+  .Menu.Active .Btn {
+    Display: Block;
+  }
+
+  .Menu.Active {
+    Padding: 30px 0;
+    Width: 100%;
+    Transition: All 0.8s Ease;
+  }
+
+  .Text,
+  .Visual {
+    Width: 100%;
+    Margin-Bottom: 20px;
+  }
+
+  .Text H1 {
+    Font-Size: 45px;
+  }
+
+  .Primary {
+    Font-Size: 28px;
+  }
+
+  .Secondary {
+    Font-Size: 22px;
+  }
+
+  .Tertiary {
+    Font-Size: 14px;
+  }
+
+  .Trainer {
+    Margin-Bottom: 20px;
+  }
+
+  .Client {
+    Margin-Bottom: 50px;
+  }
+
+  #Discount .Visual Img {
+    Width: 70%;
+    Margin-Bottom: 30px;
+  }
+}
+
+@Media (Max-Width: 530px) {
+  .Header::After,
+  .Header::Before,
+  .Section::After,
+  .Section::Before {
+    Display: None;
+  }
+
+  .Primary {
+    Font-Size: 25px;
+  }
+
+  .Secondary {
+    Font-Size: 20px;
+  }
+
+  .Tertiary {
+    Font-Size: 12px;
+  }
+
+  .Text H1 {
+    Font-Size: 34px;
+  }
+
+  .Btn,
+  .Btn-2 {
+    Font-Size: 16px;
+  }
+}
+
+/* End Responsive */
+
+
+Body {
+  Width: 50%;
+  Min-Height: 50vh;
+  background-color:palevioletred;
+
+  Color: #Fff;
+  Overflow-X: Hidden;
+}
+
+.Container {
+  Width: 80%;
+  Margin: 0 Auto;
+}
+
+.Flex {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Center;
+}
+.h-primary {
+  color:black;
+ margin-left: 500px;
+ 
+
+}
+
+
+
+
+
+
+
